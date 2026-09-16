@@ -125,5 +125,4 @@ final camera-ready citation before publishing the repository.
 
 ## License
 
-No license has been selected for this repository yet. Add the license required
-by the authors or institution before making the code available for reuse.
+This repository is released under the [MIT License](./LICENSE).
