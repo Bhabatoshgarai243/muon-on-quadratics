@@ -1,7 +1,7 @@
-# Reproducibility package: Muon on quadratics
+# Reproducibility package: Constant Step Sizes for Muon-Type Spectral Optimizers on Strongly Convex Quadratics
 
-This repository contains the numerical experiments used in the ICASSP 2027
-manuscript **Muon on quadratics**. The experiments compare spectral gradient
+This repository contains the numerical experiments used in the
+manuscript **Constant Step Sizes for Muon-Type Spectral Optimizers on Strongly Convex Quadratics**. The experiments compare spectral gradient
 shaping methods on quadratic objectives and reproduce the four panels reported
 in the paper.
 
@@ -98,11 +98,6 @@ should remain unchanged.
 └── P4_results.md
 ```
 
-The SVG figures and `P4_results.md` at the repository root are reference
-artifacts from the supplied manuscript experiments. P3 now produces a PDF
-figure because the updated experiment includes five curves and an inset.
-New runs should be written under `results/` so that reference files are not
-overwritten.
 
 ## Reproducibility notes
 
@@ -120,7 +115,7 @@ overwritten.
 If you use this code, please cite the associated ICASSP 2027 manuscript:
 
 > Bhabatosh [authors and final bibliographic information to be added],
-> “Muon on quadratics,” ICASSP 2027.
+> “Constant Step Sizes for Muon-Type Spectral Optimizers on Strongly Convex Quadratics,” ICASSP 2027.
 
 Please replace the placeholder author/bibliographic information above with the
 final camera-ready citation before publishing the repository.
