@@ -36,26 +36,7 @@ python run_experiments.py
 On macOS/Linux, replace the activation command with
 `source .venv/bin/activate`.
 
-### Option B: conda/mamba
 
-```powershell
-conda env create -f environment.yml
-conda activate muon-quadratics
-python run_experiments.py
-```
-
-The runner uses Matplotlib's non-interactive `Agg` backend, so it works on
-headless machines and in continuous integration. It executes each experiment
-in a clean output directory and writes the generated files to `results/`.
-
-To choose another output directory:
-
-```powershell
-python run_experiments.py --output-dir results\my-run
-```
-
-The run takes a few minutes on a typical laptop because P2 and P4 intentionally
-use long iteration loops and repeated SVDs.
 
 ## Expected outputs
 
