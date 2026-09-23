@@ -11,7 +11,7 @@ The code is intentionally small and self-contained:
 | --- | --- | --- |
 | P1: step-size threshold | `P1.py` | `P1_step_size_threshold.svg` |
 | P2: local rate | `P2.py` | `P2_local_rate.svg` |
-| P3: fixed scale versus per-step normalization | `P3.py` | `P3_fixed_vs_per_step.svg` |
+| P3: Newton–Schulz, polar, PolarGrad, and GD comparison | `P3.py` | `P3_updated_polargrad.pdf` |
 | P4: local rate and denominator constant | `P4.py` | `P4_results.md` |
 
 All random experiments use the explicit seed `20260912`. The matrix dimensions,
@@ -64,7 +64,7 @@ After a successful run, `results/` contains:
 ```text
 P1_step_size_threshold.svg
 P2_local_rate.svg
-P3_fixed_vs_per_step.svg
+P3_updated_polargrad.pdf
 P4_results.md
 ```
 
@@ -94,13 +94,15 @@ should remain unchanged.
 ├── environment.yml
 ├── P1_step_size_threshold.svg
 ├── P2_local_rate.svg
-├── P3_fixed_vs_per_step.svg
+├── P3_updated_polargrad.pdf
 └── P4_results.md
 ```
 
 The SVG figures and `P4_results.md` at the repository root are reference
-artifacts from the supplied manuscript experiments. New runs should be written
-under `results/` so that reference files are not overwritten.
+artifacts from the supplied manuscript experiments. P3 now produces a PDF
+figure because the updated experiment includes five curves and an inset.
+New runs should be written under `results/` so that reference files are not
+overwritten.
 
 ## Reproducibility notes
 
